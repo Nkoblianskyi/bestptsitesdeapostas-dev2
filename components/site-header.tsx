@@ -73,9 +73,8 @@ export function SiteHeader() {
 
             {/* SRIJ badge */}
             <div className="flex items-center gap-1.5 px-2.5 py-1.5 border border-[#166534] bg-[#f0f7f0]">
-              <div className="w-3 h-3 rounded-full border-2 border-[#166534] flex items-center justify-center">
-                <div className="w-1.5 h-1.5 bg-[#166534]" />
-              </div>
+              <Image src="/srij.svg" alt="SRIJ Logo" width={24} height={24} />
+
               <span className="text-[10px] md:text-[11px] font-bold text-[#166534] uppercase tracking-wide whitespace-nowrap">
                 SRIJ Regulado
               </span>
