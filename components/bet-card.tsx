@@ -104,7 +104,7 @@ export function BetCard({ site, rank }: BetCardProps) {
         <div className="hidden lg:grid lg:grid-cols-12 gap-0 items-stretch">
           {/* Logo */}
           <div className={cn("col-span-3 flex items-center justify-center p-5 border-r border-[#d1d5db]", site.darkLogo ? "bg-[#0f1a0f]" : "bg-[#f4f4f4]")}>
-            <div className="w-full max-w-[180px] h-20 flex items-center justify-center">
+            <div className="w-full bg-black max-w-[180px] h-20 flex items-center justify-center">
               <Image
                 src={site.logo || "/placeholder.svg"}
                 alt={site.name}
@@ -152,7 +152,7 @@ export function BetCard({ site, rank }: BetCardProps) {
         <div className="hidden md:block lg:hidden p-4">
           <div className="grid grid-cols-3 gap-4 items-center mb-4">
             <div className="flex justify-center">
-              <div className={cn("w-full max-w-[140px] h-16 flex items-center justify-center p-2", site.darkLogo ? "bg-[#0f1a0f]" : "bg-[#f4f4f4]")}>
+              <div className={cn("w-full max-w-[140px] bg-black h-16 flex items-center justify-center p-2", site.darkLogo ? "bg-[#0f1a0f]" : "bg-[#f4f4f4]")}>
                 <Image
                   src={site.logo || "/placeholder.svg"}
                   alt={site.name}
@@ -193,7 +193,7 @@ export function BetCard({ site, rank }: BetCardProps) {
         {/* Mobile Layout */}
         <div className="md:hidden p-4">
           <div className="flex items-center gap-3 mb-3">
-            <div className={cn("w-28 h-16 shrink-0 flex items-center justify-center p-2", site.darkLogo ? "bg-[#0f1a0f]" : "bg-[#f4f4f4]")}>
+            <div className={cn("w-28 h-16 shrink-0 flex bg-black items-center justify-center p-2", site.darkLogo ? "bg-[#0f1a0f]" : "bg-[#f4f4f4]")}>
               <Image
                 src={site.logo || "/placeholder.svg"}
                 alt={site.name}
