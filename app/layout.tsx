@@ -1,0 +1,119 @@
+import type React from "react"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+})
+
+export const metadata: Metadata = {
+  title: {
+    default: "BestPTSitesDeApostas | Melhores Casas de Apostas em Portugal 2025",
+    template: "%s | BestPTSitesDeApostas",
+  },
+  description:
+    "Comparador independente das melhores casas de apostas desportivas licenciadas pelo SRIJ em Portugal. Analises detalhadas, bonus verificados e classificacoes atualizadas em 2025.",
+  keywords: [
+    "melhores casas de apostas portugal",
+    "casas de apostas online portugal",
+    "apostas desportivas portugal",
+    "sites de apostas licenciados srij",
+    "bonus apostas portugal",
+    "comparador apostas portugal",
+    "apostas desportivas legais portugal",
+    "melhores sites de apostas 2025",
+    "ranking casas de apostas",
+    "apostas online portugal srij",
+    "betano portugal",
+    "bet365 portugal",
+    "solverde apostas",
+    "casino apostas portugal",
+    "odds apostas portugal",
+    "apostas futebol portugal",
+    "bonus boas vindas apostas",
+    "freebets portugal",
+    "apostas ao vivo portugal",
+    "casas de apostas seguras portugal",
+  ],
+  authors: [{ name: "BestPTSitesDeApostas", url: "https://bestptsitesdeapostas.com" }],
+  creator: "BestPTSitesDeApostas",
+  publisher: "BestPTSitesDeApostas",
+  metadataBase: new URL("https://bestptsitesdeapostas.com"),
+  alternates: {
+    canonical: "https://bestptsitesdeapostas.com",
+    languages: {
+      "pt-PT": "https://bestptsitesdeapostas.com",
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    title: "BestPTSitesDeApostas | Top Casas de Apostas Portugal 2025",
+    description:
+      "Encontre as melhores casas de apostas licenciadas pelo SRIJ em Portugal. Comparacoes imparciais, bonus exclusivos e guias completos para apostadores portugueses.",
+    siteName: "BestPTSitesDeApostas",
+    locale: "pt_PT",
+    type: "website",
+    url: "https://bestptsitesdeapostas.com",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "BestPTSitesDeApostas - Comparador de Casas de Apostas em Portugal",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BestPTSitesDeApostas | Melhores Apostas Online em Portugal",
+    description:
+      "Comparamos as melhores casas de apostas desportivas licenciadas pelo SRIJ. Bonus verificados, odds competitivas e servico de qualidade.",
+    images: ["/og-image.jpg"],
+  },
+  category: "Sports Betting Comparison",
+  classification: "Comparison Website",
+  verification: {
+    google: "",
+  },
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="pt-PT" className={`${inter.variable} antialiased bg-background`}>
+      <head>
+        <meta name="referrer" content="no-referrer-when-downgrade" />
+        <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
+        <meta httpEquiv="X-Frame-Options" content="SAMEORIGIN" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="theme-color" content="#166534" />
+        <meta name="author" content="BestPTSitesDeApostas" />
+        <meta property="og:site_name" content="BestPTSitesDeApostas" />
+        <meta name="classification" content="Comparison Website" />
+        <meta name="category" content="Sports Betting Comparison" />
+        <meta
+          name="disclaimer"
+          content="Site de comparacao independente. Nao somos uma casa de apostas. Links para sites licenciados pelo SRIJ."
+        />
+      </head>
+      <body>{children}</body>
+    </html>
+  )
+}
