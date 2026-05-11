@@ -76,7 +76,7 @@ export function SiteHeader() {
             <div className="flex items-center gap-1.5 px-2.5 py-1.5 border border-[#166534] bg-[#f0f7f0]">
               <Image src="/srij.svg" alt="SRIJ Logo" width={24} height={24} />
 
-              <span className="text-[10px] md:text-[11px] font-bold text-[#166534] uppercase tracking-wide whitespace-nowrap">
+              <span className="hidden md:block text-[10px] md:text-[11px] font-bold text-[#166534] uppercase tracking-wide whitespace-nowrap">
                 SRIJ Regulado
               </span>
             </div>
