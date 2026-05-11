@@ -193,7 +193,7 @@ export function BetCard({ site, rank }: BetCardProps) {
         {/* Mobile Layout */}
         <div className="md:hidden p-4">
           <div className="flex items-center gap-3 mb-3">
-            <div className={cn("w-28 h-16 shrink-0 flex bg-black items-center justify-center p-2", site.darkLogo ? "bg-[#0f1a0f]" : "bg-[#f4f4f4]")}>
+            <div className={cn("w-28 h-16 shrink-0 flex bg-black items-center justify-center p-2", site.darkLogo ? "bg-[#0f1a0f]" : "bg-[#0f1a0f]")}>
               <Image
                 src={site.logo || "/placeholder.svg"}
                 alt={site.name}
