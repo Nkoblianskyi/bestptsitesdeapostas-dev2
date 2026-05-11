@@ -144,7 +144,7 @@ export function FaqSection() {
                 </p>
                 <div className="bg-[#f0f7f0] p-3 mb-4 text-center">
                   <p className="text-xs text-[#166534] font-bold uppercase tracking-wide mb-0.5">Linha de Apoio Gratuita</p>
-                  <p className="text-xl font-black text-[#166534]">800 201 201</p>
+                  <p className="text-xl font-black text-[#166534]">91 188 4125</p>
                 </div>
                 <a
                   href="https://jogoresponsavel.pt"
