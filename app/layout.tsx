@@ -11,11 +11,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "BestPTSitesDeApostas | Melhores Casas de Apostas em Portugal 2025",
+    default: "BestPTSitesDeApostas | Melhores Casas de Apostas em Portugal 2026",
     template: "%s | BestPTSitesDeApostas",
   },
   description:
-    "Comparador independente das melhores casas de apostas desportivas licenciadas pelo SRIJ em Portugal. Analises detalhadas, bonus verificados e classificacoes atualizadas em 2025.",
+    "Comparador independente das melhores casas de apostas desportivas licenciadas pelo SRIJ em Portugal. Analises detalhadas, bonus verificados e classificacoes atualizadas em 2026.",
   keywords: [
     "melhores casas de apostas portugal",
     "casas de apostas online portugal",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "bonus apostas portugal",
     "comparador apostas portugal",
     "apostas desportivas legais portugal",
-    "melhores sites de apostas 2025",
+    "melhores sites de apostas 2026",
     "ranking casas de apostas",
     "apostas online portugal srij",
     "betano portugal",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "BestPTSitesDeApostas | Top Casas de Apostas Portugal 2025",
+    title: "BestPTSitesDeApostas | Top Casas de Apostas Portugal 2026",
     description:
       "Encontre as melhores casas de apostas licenciadas pelo SRIJ em Portugal. Comparacoes imparciais, bonus exclusivos e guias completos para apostadores portugueses.",
     siteName: "BestPTSitesDeApostas",

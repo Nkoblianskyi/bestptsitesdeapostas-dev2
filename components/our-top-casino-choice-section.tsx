@@ -32,7 +32,7 @@ export function OurTopCasinoChoiceSection() {
           </div>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10 pb-6 border-b-2 border-[#166534]">
             <h2 className="text-2xl md:text-4xl font-black text-[#0f1a0f] uppercase tracking-tight leading-none text-balance">
-              O Operador com Maior<br className="hidden md:block" /> Pontuacao em 2025
+              O Operador com Maior<br className="hidden md:block" /> Pontuacao em 2026
             </h2>
             <p className="text-sm text-[#6b7280] max-w-sm leading-relaxed md:text-right">
               Este operador obteve a classificacao mais alta em todos os criterios da nossa avaliacao independente.
