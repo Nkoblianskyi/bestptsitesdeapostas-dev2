@@ -63,7 +63,7 @@ export default function AboutPage() {
             className="inline-flex items-center gap-1.5 text-sm text-[#6b7280] hover:text-[#166534] transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Voltar para BestPTSitesDeApostas
+            Voltar para Melhores Sites de Apostas Portugal
           </Link>
         </div>
       </div>
@@ -122,7 +122,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div>
               <p className="text-[#374151] leading-relaxed mb-4 text-sm">
-                No BestPTSitesDeApostas, acreditamos que todo o apostador merece acesso a informacao clara, honesta
+                No site Melhores Sites de Apostas Portugal, acreditamos que todo o apostador merece acesso a informacao clara, honesta
                 e atualizada. O mercado portugues conta com dezenas de operadores licenciados e cada um tem pontos
                 fortes e fracos distintos que devem ser conhecidos antes de qualquer registo.
               </p>

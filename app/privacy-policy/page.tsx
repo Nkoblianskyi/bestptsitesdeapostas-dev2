@@ -8,7 +8,7 @@ export default function PrivacyPolicyPage() {
     {
       number: "01",
       title: "Introducao e Ambito",
-      content: `O BestPTSitesDeApostas (bestptsitesdeapostas.com) esta empenhado na protecao da sua privacidade e no tratamento responsavel dos seus dados pessoais. Esta Politica de Privacidade descreve de forma clara e transparente como recolhemos, utilizamos, conservamos e protegemos as suas informacoes quando visita e utiliza o nosso website.
+      content: `O site Melhores Sites de Apostas Portugal (melhoressitesdeapostasportugal.com) esta empenhado na protecao da sua privacidade e no tratamento responsavel dos seus dados pessoais. Esta Politica de Privacidade descreve de forma clara e transparente como recolhemos, utilizamos, conservamos e protegemos as suas informacoes quando visita e utiliza o nosso website.
 
 Ao aceder ao nosso site, confirma que leu e compreendeu esta politica. Se nao concordar com os termos aqui descritos, pedimos que nao utilize os nossos servicos.`,
     },
@@ -42,12 +42,12 @@ Cumprir as obrigacoes legais e regulatorias aplicaveis em Portugal e na Uniao Eu
     {
       number: "04",
       title: "Partilha de Dados com Terceiros",
-      content: `O BestPTSitesDeApostas nao vende nem aluga os seus dados pessoais a terceiros. A partilha de dados pode ocorrer nas seguintes circunstancias limitadas:
+      content: `O site Melhores Sites de Apostas Portugal nao vende nem aluga os seus dados pessoais a terceiros. A partilha de dados pode ocorrer nas seguintes circunstancias limitadas:
 
 Operadores de apostas parceiros quando clica num link afiliado e realiza um registo, transmitimos informacao tecnica necessaria ao rastreamento da conversao.
 Prestadores de servicos tecnicos que nos apoiam na operacao do site, sujeitos a acordos de processamento de dados.
 Autoridades competentes quando legalmente obrigados por lei, tribunal ou entidade reguladora portuguesa ou europeia.
-Protecao de direitos em caso de necessidade de defesa de direitos legais do BestPTSitesDeApostas.`,
+Protecao de direitos em caso de necessidade de defesa de direitos legais do site Melhores Sites de Apostas Portugal.`,
     },
     {
       number: "05",
@@ -76,8 +76,8 @@ Atualizacoes a esta politica:
 Podemos rever esta politica periodicamente. Recomendamos que a consulte regularmente. A data de ultima atualizacao encontra-se no cabecalho deste documento.
 
 Contacto do Responsavel pelo Tratamento:
-Email: privacidade@bestptsitesdeapostas.com
-Website: bestptsitesdeapostas.com
+Email: privacidade@melhoressitesdeapostasportugal.com
+Website: melhoressitesdeapostasportugal.com
 Localizacao: Lisboa, Portugal`,
     },
   ]
@@ -94,7 +94,7 @@ Localizacao: Lisboa, Portugal`,
             className="inline-flex items-center gap-1.5 text-sm text-[#6b7280] hover:text-[#166534] transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Voltar para BestPTSitesDeApostas
+            Voltar para Melhores Sites de Apostas Portugal
           </Link>
         </div>
       </div>
@@ -111,7 +111,7 @@ Localizacao: Lisboa, Portugal`,
             Politica de Privacidade
           </h1>
           <p className="text-sm text-[#6b7280]">
-            BestPTSitesDeApostas | bestptsitesdeapostas.com | Ultima atualizacao:{" "}
+            Melhores Sites de Apostas Portugal | melhoressitesdeapostasportugal.com | Ultima atualizacao:{" "}
             {new Date().toLocaleDateString("pt-PT", { day: "numeric", month: "long", year: "numeric" })}
           </p>
         </div>

@@ -58,8 +58,8 @@ export function AdvertiserInfoModal({ isOpen, onClose }: AdvertiserInfoModalProp
           {/* Body */}
           <div className="p-6 space-y-5">
             <p className="text-sm text-[#374151] leading-relaxed">
-              <strong className="text-[#0f1a0f] font-black">BestPTSitesDeApostas</strong>{" "}
-              (bestptsitesdeapostas.com) e um servico gratuito de comparacao de plataformas de apostas desportivas
+              <strong className="text-[#0f1a0f] font-black">Melhores Sites de Apostas Portugal</strong>{" "}
+              (melhoressitesdeapostasportugal.com) e um servico gratuito de comparacao de plataformas de apostas desportivas
               licenciadas em Portugal. O nosso objetivo e fornecer informacao objetiva e verificada a apostadores portugueses.
             </p>
 

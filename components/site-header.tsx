@@ -28,7 +28,7 @@ export function SiteHeader() {
       <div className="border-b-2 border-[#166534]">
         <div className="container mx-auto flex items-center justify-between h-16 md:h-18 px-4 md:px-6">
           {/* Wordmark */}
-          <Link href="/" className="flex items-center gap-2.5 group" aria-label="BestPTSitesDeApostas pagina inicial">
+          <Link href="/" className="flex items-center gap-2.5 group" aria-label="Melhores Sites de Apostas Portugal pagina inicial">
             {/* Sports icon mark */}
             <div className="w-9 h-9 bg-[#166534] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
               {/* Football / soccer ball SVG */}
@@ -46,9 +46,9 @@ export function SiteHeader() {
             </div>
             {/* Text */}
             <span className="text-[13px] md:text-[16px] font-black tracking-[0.10em] uppercase leading-none">
-              <span className="text-[#166534]">BESTPT</span>
+              <span className="text-[#166534]">MELHORES</span>
               <span className="text-[#d1d5db] font-light mx-1.5">|</span>
-              <span className="text-[#0f1a0f]">SITES DE APOSTAS</span>
+              <span className="text-[#0f1a0f]">SITES DE APOSTAS PORTUGAL</span>
             </span>
           </Link>
 

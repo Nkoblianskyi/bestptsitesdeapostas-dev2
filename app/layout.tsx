@@ -11,8 +11,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "BestPTSitesDeApostas | Melhores Casas de Apostas em Portugal 2026",
-    template: "%s | BestPTSitesDeApostas",
+    default: "Melhores Sites de Apostas Portugal | Melhores Casas de Apostas em Portugal 2026",
+    template: "%s | Melhores Sites de Apostas Portugal",
   },
   description:
     "Comparador independente das melhores casas de apostas desportivas licenciadas pelo SRIJ em Portugal. Analises detalhadas, bonus verificados e classificacoes atualizadas em 2026.",
@@ -38,14 +38,14 @@ export const metadata: Metadata = {
     "apostas ao vivo portugal",
     "casas de apostas seguras portugal",
   ],
-  authors: [{ name: "BestPTSitesDeApostas", url: "https://bestptsitesdeapostas.com" }],
-  creator: "BestPTSitesDeApostas",
-  publisher: "BestPTSitesDeApostas",
-  metadataBase: new URL("https://bestptsitesdeapostas.com"),
+  authors: [{ name: "Melhores Sites de Apostas Portugal", url: "https://melhoressitesdeapostasportugal.com" }],
+  creator: "Melhores Sites de Apostas Portugal",
+  publisher: "Melhores Sites de Apostas Portugal",
+  metadataBase: new URL("https://melhoressitesdeapostasportugal.com"),
   alternates: {
-    canonical: "https://bestptsitesdeapostas.com",
+    canonical: "https://melhoressitesdeapostasportugal.com",
     languages: {
-      "pt-PT": "https://bestptsitesdeapostas.com",
+      "pt-PT": "https://melhoressitesdeapostasportugal.com",
     },
   },
   robots: {
@@ -61,25 +61,25 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "BestPTSitesDeApostas | Top Casas de Apostas Portugal 2026",
+    title: "Melhores Sites de Apostas Portugal | Top Casas de Apostas Portugal 2026",
     description:
       "Encontre as melhores casas de apostas licenciadas pelo SRIJ em Portugal. Comparacoes imparciais, bonus exclusivos e guias completos para apostadores portugueses.",
-    siteName: "BestPTSitesDeApostas",
+    siteName: "Melhores Sites de Apostas Portugal",
     locale: "pt_PT",
     type: "website",
-    url: "https://bestptsitesdeapostas.com",
+    url: "https://melhoressitesdeapostasportugal.com",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "BestPTSitesDeApostas - Comparador de Casas de Apostas em Portugal",
+        alt: "Melhores Sites de Apostas Portugal - Comparador de Casas de Apostas em Portugal",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "BestPTSitesDeApostas | Melhores Apostas Online em Portugal",
+    title: "Melhores Sites de Apostas Portugal | Melhores Apostas Online em Portugal",
     description:
       "Comparamos as melhores casas de apostas desportivas licenciadas pelo SRIJ. Bonus verificados, odds competitivas e servico de qualidade.",
     images: ["/og-image.jpg"],
@@ -104,8 +104,8 @@ export default function RootLayout({
         <meta httpEquiv="X-Frame-Options" content="SAMEORIGIN" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="theme-color" content="#166534" />
-        <meta name="author" content="BestPTSitesDeApostas" />
-        <meta property="og:site_name" content="BestPTSitesDeApostas" />
+        <meta name="author" content="Melhores Sites de Apostas Portugal" />
+        <meta property="og:site_name" content="Melhores Sites de Apostas Portugal" />
         <meta name="classification" content="Comparison Website" />
         <meta name="category" content="Sports Betting Comparison" />
         <meta

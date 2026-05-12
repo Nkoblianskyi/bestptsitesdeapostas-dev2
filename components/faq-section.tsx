@@ -40,7 +40,7 @@ const faqs = [
       "Em Portugal, a idade minima legal para participar em jogos a dinheiro e de 18 anos. Todos os operadores licenciados sao obrigados por lei a verificar a identidade do utilizador atraves de documento de identificacao valido durante o processo de registo, antes de autorizar qualquer deposito.",
   },
   {
-    question: "Como funciona o sistema de classificacao do BestPTSitesDeApostas?",
+    question: "Como funciona o sistema de classificacao do site Melhores Sites de Apostas Portugal?",
     answer:
       "Avaliamos cada operador numa escala de 0 a 10 com base em seis criterios: licenciamento e validade da licenca SRIJ, seguranca tecnica e protecao de dados, mercados desportivos e qualidade das odds, estrutura e transparencia dos bonus, metodos de pagamento disponiveis e qualidade do suporte ao cliente. As pontuacoes sao revistas mensalmente com base em dados atuais.",
   },

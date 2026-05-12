@@ -32,7 +32,7 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr] gap-0 border-b border-white/10">
           {/* Brand column */}
           <div className="py-10 md:py-14 pr-0 lg:pr-12 border-b md:border-b-0 md:border-r border-white/10">
-            <Link href="/" className="flex items-center gap-2.5 mb-6" aria-label="BestPTSitesDeApostas">
+            <Link href="/" className="flex items-center gap-2.5 mb-6" aria-label="Melhores Sites de Apostas Portugal">
               {/* Sports icon mark */}
               <div className="w-10 h-10 bg-[#166534] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
                 <svg width="24" height="24" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,9 +47,9 @@ export function SiteFooter() {
               {/* Text */}
               <div className="flex flex-col leading-none gap-1">
                 <span className="text-[16px] font-black tracking-[0.10em] uppercase leading-none">
-                  <span className="text-[#4ade80]">BESTPT</span>
+                  <span className="text-[#4ade80]">MELHORES</span>
                   <span className="text-white/20 font-light mx-1.5">|</span>
-                  <span className="text-white">SITES DE APOSTAS</span>
+                  <span className="text-white">SITES DE APOSTAS PORTUGAL</span>
                 </span>
                 <span className="text-[9px] font-bold tracking-[0.18em] text-white/30 uppercase">
                   Comparador Independente
@@ -69,7 +69,7 @@ export function SiteFooter() {
                   <polyline points="22,6 12,13 2,6" />
                 </svg>
               </div>
-              <span className="text-xs">info@bestptsitesdeapostas.com</span>
+              <span className="text-xs">info@melhoressitesdeapostasportugal.com</span>
             </div>
           </div>
 
@@ -145,7 +145,7 @@ export function SiteFooter() {
           </div>
 
           <p className="max-w-3xl mx-auto text-white/35 leading-relaxed text-xs">
-            BestPTSitesDeApostas (bestptsitesdeapostas.com) e um comparador independente de casas de apostas. Nao somos
+            Melhores Sites de Apostas Portugal (melhoressitesdeapostasportugal.com) e um comparador independente de casas de apostas. Nao somos
             um operador de jogo. Todo o conteudo e destinado exclusivamente a maiores de 18 anos residentes em Portugal.
             Os links para operadores sao de natureza comercial. O jogo pode criar dependencia.
           </p>
@@ -155,7 +155,7 @@ export function SiteFooter() {
           </p>
 
           <p className="text-white/20 text-xs pt-4 border-t border-white/10 font-medium">
-            &copy; {new Date().getFullYear()} BestPTSitesDeApostas. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} Melhores Sites de Apostas Portugal. Todos os direitos reservados.
           </p>
         </div>
       </div>

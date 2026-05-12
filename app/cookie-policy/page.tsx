@@ -15,7 +15,7 @@ Os cookies podem ser persistentes, permanecendo apos fechar o navegador durante 
     {
       number: "02",
       title: "Como Utilizamos Cookies",
-      content: `O BestPTSitesDeApostas utiliza cookies para os seguintes fins:
+      content: `O site Melhores Sites de Apostas Portugal utiliza cookies para os seguintes fins:
 
 Preservar as suas preferencias de navegacao e configuracoes de interface.
 Analisar o comportamento dos visitantes para melhorar o site continuamente.
@@ -68,7 +68,7 @@ Microsoft Edge: Definicoes, Cookies e permissoes do site.
 
 Pode igualmente revogar o seu consentimento a qualquer momento atraves do nosso painel de preferencias de cookies. A desativacao de determinados cookies pode limitar a funcionalidade de algumas secoes do site.
 
-Contacto: cookies@bestptsitesdeapostas.com`,
+Contacto: cookies@melhoressitesdeapostasportugal.com`,
     },
   ]
 
@@ -84,7 +84,7 @@ Contacto: cookies@bestptsitesdeapostas.com`,
             className="inline-flex items-center gap-1.5 text-sm text-[#6b7280] hover:text-[#166534] transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Voltar para BestPTSitesDeApostas
+            Voltar para Melhores Sites de Apostas Portugal
           </Link>
         </div>
       </div>
@@ -101,7 +101,7 @@ Contacto: cookies@bestptsitesdeapostas.com`,
             Politica de Cookies
           </h1>
           <p className="text-sm text-[#6b7280]">
-            BestPTSitesDeApostas | bestptsitesdeapostas.com | Ultima atualizacao:{" "}
+            Melhores Sites de Apostas Portugal | melhoressitesdeapostasportugal.com | Ultima atualizacao:{" "}
             {new Date().toLocaleDateString("pt-PT", { day: "numeric", month: "long", year: "numeric" })}
           </p>
         </div>
